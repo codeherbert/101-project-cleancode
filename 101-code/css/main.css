@@ -5,23 +5,24 @@ body {
 }
 
 #about, #contact, #work {
-  height: 600px;
+  height: 625px;
 }
 
 /*****GRID*****/
 
 .full-width {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .half-width {
-  width: 600px;
+  width: 50%;
   float: left;
 }
 
 .third-width {
-  width: 400px;
+  width: 33.33%;
   float: left;
 }
 
@@ -54,7 +55,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 18px;
   color: #9f9f9f;
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 header h2 {
@@ -169,3 +170,12 @@ header h2 span {
 #contact ul img {
     padding-right: 48px;
 }
+
+/* ========== Tablet Layout ==========*/
+@media only screen and (max-width: 768px) {
+  nav ul li a {
+    padding-left: 50px;
+  }
+}
+
+
